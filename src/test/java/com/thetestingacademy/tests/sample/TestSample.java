@@ -1,4 +1,4 @@
-package com.thetestingacademy.ATB9xSeleniumAdvanceFramework;
+package com.thetestingacademy.tests.sample;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

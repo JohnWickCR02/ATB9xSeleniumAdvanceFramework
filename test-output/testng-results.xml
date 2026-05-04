@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-05T01:51:38 IST" name="testnng" finished-at="2026-05-05T01:51:38 IST" duration-ms="263">
+  <suite started-at="2026-05-05T02:44:55 IST" name="testng_vwologin" finished-at="2026-05-05T02:45:05 IST" duration-ms="10136">
     <groups>
     </groups>
-    <test started-at="2026-05-05T01:51:38 IST" name="Test" finished-at="2026-05-05T01:51:38 IST" duration-ms="263">
-      <class name="com.thetestingacademy.ATB9xSeleniumAdvanceFramework.TestSample">
-        <test-method signature="testSample0()[pri:0, instance:com.thetestingacademy.ATB9xSeleniumAdvanceFramework.TestSample@23f5b5dc]" started-at="2026-05-05T01:51:38 IST" name="testSample0" finished-at="2026-05-05T01:51:38 IST" duration-ms="75" status="PASS">
+    <test started-at="2026-05-05T02:44:55 IST" name="Test" finished-at="2026-05-05T02:45:05 IST" duration-ms="10136">
+      <class name="com.thetestingacademy.ATB9xSeleniumAdvanceFramework.vwoTestCases.TestVWOLogin">
+        <test-method signature="test_negative_vwo_login()[pri:0, instance:com.thetestingacademy.ATB9xSeleniumAdvanceFramework.vwoTestCases.TestVWOLogin@34bde49d]" started-at="2026-05-05T02:44:55 IST" name="test_negative_vwo_login" finished-at="2026-05-05T02:45:05 IST" duration-ms="9950" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSample0 -->
-        <test-method signature="testSample1()[pri:0, instance:com.thetestingacademy.ATB9xSeleniumAdvanceFramework.TestSample@23f5b5dc]" started-at="2026-05-05T01:51:38 IST" name="testSample1" finished-at="2026-05-05T01:51:38 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSample1 -->
-      </class> <!-- com.thetestingacademy.ATB9xSeleniumAdvanceFramework.TestSample -->
+        </test-method> <!-- test_negative_vwo_login -->
+      </class> <!-- com.thetestingacademy.ATB9xSeleniumAdvanceFramework.vwoTestCases.TestVWOLogin -->
     </test> <!-- Test -->
-  </suite> <!-- testnng -->
+  </suite> <!-- testng_vwologin -->
 </testng-results>
