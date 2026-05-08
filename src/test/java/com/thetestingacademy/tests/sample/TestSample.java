@@ -13,6 +13,7 @@ public class TestSample {
 	public void testSample0 () {
 		
 		Assert.assertTrue(true);
+
 		
 	}
 	
