@@ -2,6 +2,10 @@ package com.thetestingacademy.pages.pageObjectModel.katalonApp;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import utils.PropertiesReader;
+
+
+import java.util.Properties;
 
 public class HomePage {
 
@@ -14,7 +18,7 @@ public class HomePage {
 
     public String navLogin() {
 
-        driver.get("https://katalon-demo-cura.herokuapp.com/");
+        driver.get(PropertiesReader.readKey("url_katalon"));
         driver.findElement(makeAptbtn).click();
         try {
             Thread.sleep(3000);

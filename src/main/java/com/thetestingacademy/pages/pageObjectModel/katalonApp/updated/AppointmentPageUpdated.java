@@ -1,0 +1,33 @@
+package com.thetestingacademy.pages.pageObjectModel.katalonApp.updated;
+
+import com.thetestingacademy.base.CommonToAllPages;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class AppointmentPageUpdated extends CommonToAllPages {
+
+    WebDriver driver;
+    public AppointmentPageUpdated(WebDriver driver) {
+        this.driver = driver;
+    }
+
+
+    private By dateBox = By.id("txt_visit_date");
+    private By bookAptBtn = By.id("btn-book-appointment");
+
+
+
+    public String bookApt(String date)  {
+
+        //driver.findElement(dateBox).sendKeys(date);
+        enterInputText(dateBox,date);
+
+        clickElement(bookAptBtn);
+
+        customWait(3);
+
+        return driver.getCurrentUrl();
+
+    }
+
+}
