@@ -16,21 +16,27 @@ import io.qameta.allure.Owner;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import utils.PropertiesReader;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class testKatalonApp_03 extends CommonToAllTest {
 
+    final static Logger logger = LogManager.getLogger(testKatalonApp_03.class);
 
     @Owner("Jivi")
     @Description("TestCase to navigate to Login page and validate URL")
     @Test(priority = 1)
     public void navigateToLogin()
     {
+        logger.info("Start navigating to Login page");
+
         HomePageUpdated homePage = new HomePageUpdated(DriverManager.getDriver());
 
         String url = homePage.navLogin();
 
         Assert.assertEquals(url,"https://katalon-demo-cura.herokuapp.com/profile.php#login");
 
+        logger.info("End navigating to Login page");
     }
 
 
@@ -39,6 +45,8 @@ public class testKatalonApp_03 extends CommonToAllTest {
     @Test(priority = 2)
     public void navigateToAppointment()
     {
+        logger.info("Start navigating to Appointment page");
+
         LoginPageUpdated loginPage = new LoginPageUpdated(DriverManager.getDriver());
 
         String successLoginText = loginPage.loginElementCheck();
@@ -48,7 +56,7 @@ public class testKatalonApp_03 extends CommonToAllTest {
 
         Assert.assertEquals(successLoginText,"Login");
 
-
+        logger.info("End navigating to Appointment page");
     }
 
 
@@ -57,7 +65,7 @@ public class testKatalonApp_03 extends CommonToAllTest {
     @Test(priority = 3)
     public void makeAppointment()
     {
-
+        logger.info("Start making Appointment page");
         AppointmentPageUpdated appointmentPage = new AppointmentPageUpdated(DriverManager.getDriver());
 
         String date = PropertiesReader.readKey("date_katalon");

@@ -14,18 +14,27 @@ public class CommonToAllPages {
 
     public void clickElement(By by) {
     getDriver().findElement(by).click();
-}
+    }
+
+    public void clickElement(WebElement element) {
+        element.click();
+    }
 
     public void enterInputText(By by , String text) {
     getDriver().findElement(by).sendKeys(text);
 }
 
-    public void enterInputText(WebElement by , String text) {
-        by.sendKeys(text);
+    public void enterInputText(WebElement element , String text) {
+        element.sendKeys(text);
     }
 
     public String fetchText(By by) {
        return getDriver().findElement(by).getText();
+    }
+
+    public String fetchText(WebElement element
+    ) {
+        return element.getText();
     }
 
     public void customWait(int seconds) {

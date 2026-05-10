@@ -3,7 +3,7 @@
 <suite name="testng_vwologin">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.thetestingacademy.ATB9xSeleniumAdvanceFramework.vwoTestCases.TestVWOLogin"/>
+      <class name="com.thetestingacademy.tests.vwoTestCases.TestVWOLogin_POM"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- testng_vwologin -->

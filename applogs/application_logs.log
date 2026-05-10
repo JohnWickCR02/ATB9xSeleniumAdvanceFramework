@@ -1,0 +1,35 @@
+2026-05-10 04:41:02 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_03 - Start navigating to Login page
+2026-05-10 04:41:09 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_03 - End navigating to Login page
+2026-05-10 04:41:09 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_03 - Start navigating to Appointment page
+2026-05-10 04:41:13 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_03 - End navigating to Appointment page
+2026-05-10 04:41:13 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_03 - Start making Appointment page
+2026-05-10 17:20:55 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_04_retry - Start navigating to Login page
+2026-05-10 17:21:02 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_04_retry - End navigating to Login page
+2026-05-10 17:21:02 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_04_retry - Start navigating to Appointment page
+2026-05-10 17:21:05 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_04_retry - End navigating to Appointment page
+2026-05-10 17:21:05 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_04_retry - Start making Appointment page
+2026-05-10 17:22:22 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_04_retry - Start navigating to Login page
+2026-05-10 17:22:28 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_04_retry - Start navigating to Login page
+2026-05-10 17:22:32 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_04_retry - Start navigating to Login page
+2026-05-10 17:22:35 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_04_retry - Start navigating to Login page
+2026-05-10 17:22:39 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_04_retry - Start navigating to Appointment page
+2026-05-10 17:22:42 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_04_retry - End navigating to Appointment page
+2026-05-10 17:22:42 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_04_retry - Start making Appointment page
+2026-05-10 17:23:21 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_04_retry - Start navigating to Login page
+2026-05-10 17:23:28 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_04_retry - Start navigating to Login page
+2026-05-10 17:23:32 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_04_retry - Start navigating to Login page
+2026-05-10 17:23:35 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_04_retry - Start navigating to Login page
+2026-05-10 17:23:39 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_04_retry - Start navigating to Appointment page
+2026-05-10 17:23:42 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_04_retry - End navigating to Appointment page
+2026-05-10 17:23:42 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_04_retry - Start making Appointment page
+2026-05-10 21:20:43 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_05_PF - Start navigating to Login page
+2026-05-10 21:21:29 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_05_PF - Start navigating to Appointment page
+2026-05-10 21:21:32 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_05_PF - End navigating to Appointment page
+2026-05-10 21:21:32 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_05_PF - Start making Appointment page
+2026-05-10 21:31:00 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_05_PF - Start navigating to Login page
+2026-05-10 21:31:12 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_05_PF - End navigating to Login page
+2026-05-10 21:43:50 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_05_PF - Start navigating to Login page
+2026-05-10 21:43:57 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_05_PF - End navigating to Login page
+2026-05-10 21:43:57 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_05_PF - Start navigating to Appointment page
+2026-05-10 21:44:00 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_05_PF - End navigating to Appointment page
+2026-05-10 21:44:00 [main] INFO  com.thetestingacademy.tests.katalonAppCases.testKatalonApp_05_PF - Start making Appointment page
